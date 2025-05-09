@@ -42,6 +42,14 @@
     z-index: 1;
     top: 26%;
     left: -59.5px;
+    position: relative;
+        /* або absolute — головне однаково скрізь */
+        transition:
+            top 0.5s ease,
+            left 0.5s ease,
+            transform 0.5s ease,
+            z-index 0.3s ease;
+            flex-shrink: 0;
     
             
            
