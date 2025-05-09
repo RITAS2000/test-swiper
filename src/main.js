@@ -1,10 +1,10 @@
 import Swiper from 'swiper';
-import { Navigation, Keyboard, EffectFade } from 'swiper/modules';
+import { Navigation, Keyboard, EffectCoverflow } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
 
-Swiper.use([Navigation, Keyboard, EffectFade]);
+Swiper.use([Navigation, Keyboard, EffectCoverflow]);
 
 const swiper = new Swiper('.container-swiper', {
   loop: true,
